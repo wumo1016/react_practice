@@ -1,11 +1,11 @@
 import React from 'react'
-import JSXBaseDemo from './JSXBaseDemo'
+// import JSXBaseDemo from './JSXBaseDemo'
 // import ConditionDemo from './ConditionDemo'
 // import ListDemo from './ListDemo'
 // import EventDemo from './EventDemo'
 // import FormDemo from './FormDemo'
 // import PropsDemo from './PropsDemo'
-// import StateDemo from './StateDemo'
+import StateDemo from './StateDemo'
 // import StateDemo1 from './StateDemo1'
 
 class BaseUseDemo extends React.Component {
@@ -15,13 +15,13 @@ class BaseUseDemo extends React.Component {
   render() {
     return (
       <div>
-        <JSXBaseDemo />
+        {/* <JSXBaseDemo /> */}
         {/* <ConditionDemo/> */}
         {/* <ListDemo/> */}
         {/* <EventDemo/> */}
         {/* <FormDemo/> */}
         {/* <PropsDemo/> */}
-        {/* <StateDemo/> */}
+        <StateDemo />
         {/* <StateDemo1/> */}
       </div>
     )

@@ -31,5 +31,46 @@
 - 表单
   - 受控组件
   - 非受控组件
+- 组件
+  - class 组件
+  - 函数组件
+    - 没有 state
+- setState
+  - 不可变值
+    - 不能直接修改 state 中的值 => 无效
+    - 修改数组
+    - 修改对象 Object.assign ...解构
+    - 都需要在 setState 中修改才有效
+  - 异步或同步
+    - 直接在 render 中使用 默认是异步的 可以在回调函数中拿到最新值
+    - setTimeout 中 setState 是同步的
+    - DOM 事件回调函数中的 setState 是同步的
+  - 是覆盖还是合并
+    - 直接传入对象 就是异步的时候 会被覆盖 直接以最后一个为准
+    - 传入一个函数 因为后面会一个一个执行
 
 ### 组件通讯
+
+- 父子组件
+  - 父组件中 => 将变量绑定到组件属性上
+  - 子组件中 => this.props
+
+### 组件生命周期(https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+- 单组件
+  - 挂载时
+    - constructor
+    - render
+    - 更新 dom 和 refs
+    - componentDidMount
+  - 更新时
+    - New Props、setState、forceUpdate
+    - shouldComponentUpdate
+    - render
+    - 更新 dom 和 refs
+    - componentDidUpdate
+  - 卸载时
+    - componentWillUnMount
+- 父子组件 与 vue 一致
+
+14
