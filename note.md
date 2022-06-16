@@ -80,10 +80,18 @@
   - ref
   - defaultValue defaultChecked
   - 手动操作 dom 元素
+  - React.createRef
 - Portal
   - 将组件渲染到指定的 dom 中
+  - ReactDOM.createPortal
 - context
   - 组件跨层级传递数据
+  - React.createContext
+    - 类组件: 静态属性 contextType
+    - 函数组件: ThemeContext.Consumer => value
 - 异步组件
+  - import
+  - React.Suspense
+  - React.lazy
 - 高阶组件
 - render props

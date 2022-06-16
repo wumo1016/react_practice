@@ -1,8 +1,8 @@
 import React from 'react'
 // import UncontrolledDemo from './UncontrolledDemo'
 // import PortalsDemo from './PortalsDemo'
-import ContextDemo from './ContextDemo'
-// import LazyDemo from './LazyDemo'
+// import ContextDemo from './ContextDemo'
+import LazyDemo from './LazyDemo'
 // import SCUDemo from './SCUDemo'
 // import SCUDemo2 from './SCUDemo2'
 // import PureComponentDemo from './PureComponentDemo'
@@ -18,8 +18,8 @@ class AdvancedUse extends React.Component {
       <div>
         {/* <UncontrolledDemo /> */}
         {/* <PortalsDemo>Modal 内容</PortalsDemo> */}
-        <ContextDemo />
-        {/* <LazyDemo/> */}
+        {/* <ContextDemo /> */}
+        <LazyDemo />
         {/* <SCUDemo/> */}
         {/* <SCUDemo2/> */}
         {/* <PureComponentDemo/> */}
