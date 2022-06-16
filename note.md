@@ -98,6 +98,7 @@
   - React.memo
   - 在 shouldComponentUpdate 进行浅比较
 - 高阶组件
+  - 一个工厂函数 接受一个组件 返回一个组件 可以基于这个组件做一些事情
 - render props
 
 ## 性能优化
