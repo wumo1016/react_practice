@@ -10,7 +10,7 @@
 
 ## jsx 语法
 
-### 基本使用
+## 基本使用
 
 - 变量、表达式 使用 `{}` 包裹
 - class 设置 使用 className 设置
@@ -49,28 +49,39 @@
     - 直接传入对象 就是异步的时候 会被覆盖 直接以最后一个为准
     - 传入一个函数 因为后面会一个一个执行
 
-### 组件通讯
+## 组件通讯
 
 - 父子组件
   - 父组件中 => 将变量绑定到组件属性上
   - 子组件中 => this.props
 
-### 组件生命周期(https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+## 组件生命周期(https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
-- 单组件
-  - 挂载时
-    - constructor
-    - render
-    - 更新 dom 和 refs
-    - componentDidMount
-  - 更新时
-    - New Props、setState、forceUpdate
-    - shouldComponentUpdate
-    - render
-    - 更新 dom 和 refs
-    - componentDidUpdate
-  - 卸载时
-    - componentWillUnMount
-- 父子组件 与 vue 一致
+- 挂载时
+  - constructor
+  - render
+  - 更新 dom 和 refs
+  - componentDidMount
+- 更新时
+  - New Props、setState、forceUpdate
+  - shouldComponentUpdate
+  - render
+  - 更新 dom 和 refs
+  - componentDidUpdate
+- 卸载时
+  - componentWillUnMount
 
-14
+## 高级
+
+- 函数组件
+  - 纯函数 输入 props 输出 jsx
+  - 没有实例、声明周期、state
+- 非受控组件
+  - ref
+  - defaultValue defaultChecked
+  - 手动操作 dom 元素
+- Portals
+- context
+- 异步组件
+- 高阶组件
+- render props
