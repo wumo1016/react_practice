@@ -80,7 +80,8 @@
   - ref
   - defaultValue defaultChecked
   - 手动操作 dom 元素
-- Portals
+- Portal
+  - 将组件渲染到指定的 dom 中
 - context
 - 异步组件
 - 高阶组件
