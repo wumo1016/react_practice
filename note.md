@@ -83,6 +83,7 @@
 - Portal
   - 将组件渲染到指定的 dom 中
 - context
+  - 组件跨层级传递数据
 - 异步组件
 - 高阶组件
 - render props
