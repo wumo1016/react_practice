@@ -93,6 +93,10 @@
   - import
   - React.Suspense
   - React.lazy
+- PureComponent(memo 函数组件)
+  - React.PureComponent
+  - React.memo
+  - 在 shouldComponentUpdate 进行浅比较
 - 高阶组件
 - render props
 
@@ -104,3 +108,5 @@
       - 比如: A B C 三个组件 A 的数据变化导致 B C 也更新 但是 B C 依赖的数据可能并没有变化
   - 默认返回 true
   - 必须配合不可变值使用
+
+22

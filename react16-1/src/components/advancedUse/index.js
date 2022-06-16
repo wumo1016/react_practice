@@ -4,8 +4,8 @@ import React from 'react'
 // import ContextDemo from './ContextDemo'
 // import LazyDemo from './LazyDemo'
 // import SCUDemo from './SCUDemo'
-import SCUDemo2 from './SCUDemo2'
-// import PureComponentDemo from './PureComponentDemo'
+// import SCUDemo2 from './SCUDemo2'
+import PureComponentDemo from './PureComponentDemo'
 // import HOCDemo from './HOCDemo'
 // import RenderPropDemo from './RenderPropDemo'
 
@@ -21,8 +21,8 @@ class AdvancedUse extends React.Component {
         {/* <ContextDemo /> */}
         {/* <LazyDemo /> */}
         {/* <SCUDemo /> */}
-        <SCUDemo2 />
-        {/* <PureComponentDemo/> */}
+        {/* <SCUDemo2 /> */}
+        <PureComponentDemo />
         {/* <HOCDemo a="100"/> */}
         {/* <RenderPropDemo a="200" /> */}
       </div>
